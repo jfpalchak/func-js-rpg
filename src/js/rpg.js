@@ -59,6 +59,19 @@ export const classCreator = (className) =>
   )
 );
 
+export const classFactory = (className) => {
+  switch(className) {
+    case "Mage":
+      return classCreator(className)(100)(30)(100)(15)(40);
+    case "Warrior":
+      return classCreator(className)(100)(100)(0)(100)(20);
+    case "Rogue":
+      return classCreator(className)(100)(100)(50)(60)(100);
+    default:
+      return;
+  }
+}
+
 // Our function factory for changing state properties:
 export const changeState = (prop) => {
   return (value) => {
