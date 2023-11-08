@@ -20,27 +20,27 @@ export const mageCreator = function(name) {
   }
 }
 
-export const warriorCreator = function(name) {
-  return {
-    name,
-    hp: 100,
-    stamina: 100,
-    mana: 0,
-    strength: 100,
-    agility: 20
-  }
-}
+// export const warriorCreator = function(name) {
+//   return {
+//     name,
+//     hp: 100,
+//     stamina: 100,
+//     mana: 0,
+//     strength: 100,
+//     agility: 20
+//   }
+// }
 
-export const rogueCreator = function(name) {
-  return {
-    name,
-    hp: 100,
-    stamina: 100,
-    mana: 50,
-    strength: 60,
-    agility: 100
-  }
-}
+// export const rogueCreator = function(name) {
+//   return {
+//     name,
+//     hp: 100,
+//     stamina: 100,
+//     mana: 50,
+//     strength: 60,
+//     agility: 100
+//   }
+// }
 
 // Function factory for creating a class:
 export const classCreator = (className) => 
