@@ -59,6 +59,7 @@ export const classCreator = (className) =>
   )
 );
 
+// A factory for class creation depending upon the name of class given
 export const classFactory = (className) => {
   switch(className) {
     case "Mage":
